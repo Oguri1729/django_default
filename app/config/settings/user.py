@@ -1,0 +1,9 @@
+
+from .settings import INSTALLED_APPS
+
+
+USER_APP_NAME = 'user'
+USER_URL_INDEX = ''
+USER_URL_HOME = 'home'
+
+INSTALLED_APPS += [USER_APP_NAME]

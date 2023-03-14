@@ -1,0 +1,12 @@
+{% extends "common/base.html" %}
+{% comment  %}
+HOMEページ
+{% endcomment %}
+
+{% block title %}{{display_id}}{% endblock %}
+{% block content %}
+{{user.is_superuser}}
+{{user.email}}
+<h1>HOMEページです</h1>
+{% endblock %}
+
